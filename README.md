@@ -13,7 +13,7 @@
 ### Step 1
 If you want to extract the key, obfuscate your Discord Webhook with the amazing [mumbojumbo](https://github.com/jeromer/mumbojumbo).
 
-Replace the content of `imports/hook.go` with your mumbojumbo-encrypted string.
+Paste your mumbojumbo-encrypted `func Get()` in `imports/hook.go`.
 
 You can also pass the Webhook string directly, but that can easily be extracted:  
 `string ransom | grep discord.com`
